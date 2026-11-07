@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+   
+    color: #584e30;
+    font-size: 16px;
+}
+#garden-div {
+    padding: 15px;
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgb(157, 196, 155);
+}
+
+#shop-button {
+   background: none;
+   border: none;
+   margin: 0;
+   padding: 0;
+}
+
+#shop-button img {
+    display: block;
+    max-width: 25%;
+    max-height: auto;
+}
+
+#shop-button img:hover {
+    opacity: 90%;
+;
+}
+
+.hover-affect{
+    border: 2px solid transparent;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    
+}
+
+.hover-affect:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    border-color: rgb(88,78,48) !important;    
+    cursor: pointer
+
+}
+
+
+.blocked {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+    filter: grayscale(100%);
+}
+
+
+.bg-modal{
+    background-color: #faf9eb !important;
+    
+    
+}
+
+.pixelify-sans{
+    --bs-body-font-family:'Pixelify Sans', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.tara{
+    --bs-body-font-family:'Tara', sans-serif;
+    font-family: 'Tara', sans-serif;
+    color: #3f3823 !important;
+
+}
+
+.tempesta{
+        --bs-body-font-family:'PF Tempesta Seven', sans-serif;
+    font-family: 'PF Tempesta Seven', sans-serif;
+    color: #3f3823 !important;
+
+}
+
+.bg-modal-header{
+    background-color: #b8c6b4;
+    border-bottom: 2px solid rgb(88, 78, 48) !important;
+    
+}
+
+.bg-modal-footer{
+    background-color: #d9c6b5 !important;
+    border-top: 2px solid rgb(88, 78, 48) !important;
+}
+
+.bg-card-plant{
+    background-color: #f7f1e0 !important;
+    
+}
+
+.bg-modal-finish{
+    background-color: #483d23 !important;
+    color: #f4f4e0 !important;
+}
+
+.bg-flower-name{
+    background-color: #daead9 !important;
+}
+
+.bg-coin-cost{
+    background-color: #f9ecc4 !important;
+     --bs-body-font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+.border-dark-brown{
+    border: 2px solid #3f3823;
+}
